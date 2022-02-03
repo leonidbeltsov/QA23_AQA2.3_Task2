@@ -62,3 +62,5 @@ public class ApiLoginTest {
         $(withText("Неверно указан логин или пароль")).shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 }
+
+//java -jar ./artifacts/app-ibank.jar -P:profile=test
